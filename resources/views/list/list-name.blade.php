@@ -1,5 +1,5 @@
 <div>
-    <title>{{ $name }} | GiftList</title>
+    <title>{{ $name }} | GiftShare</title>
 
     <div>
         {{ $name }}

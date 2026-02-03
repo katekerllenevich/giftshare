@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     @if (empty($header))
-        <title>GiftList</title>
+        <title>GiftShare</title>
     @endif
 
     <!-- Fonts -->
@@ -31,7 +31,7 @@
             <div class="flex">
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('home') }}" class="text-3xl">
-                        GiftList
+                        GiftShare
                     </a>
                 </div>
 

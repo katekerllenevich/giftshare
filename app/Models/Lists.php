@@ -13,7 +13,7 @@ class Lists extends Model
     use HasUlids;
 
     public static array $validationRules = [
-        'name' => 'required|min:5|max:25',
+        'name' => 'required|min:1|max:25',
     ];
 
     protected $fillable = [
